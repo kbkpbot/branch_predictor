@@ -9,15 +9,15 @@ This project provide a branch predictor simualtion framework, which is written i
 Also provide some branch instruction traces, which is converted from [CBP-16](https://jilp.org/cbp2016/framework.html) traces.
 
 ## How to run ?
-```bash
 You must install zstd in your system:
-
+```bash
   apt install libzstd-dev
+```
 
 The project use the [cbsl](https://github.com/kbkpbot/cbsl), which need the zstd compress library to work.
 
+```bash
   $ git clone https://github.com/kbkpbot/branch_predictor.git
-
   $ cd branch_predictor
   $ git submodule update --init --recursive
   $ v -prod .
