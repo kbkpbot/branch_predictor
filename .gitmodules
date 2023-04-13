@@ -1,0 +1,3 @@
+[submodule "cbsl"]
+	path = cbsl
+	url = https://github.com/kbkpbot/cbsl
