@@ -68,3 +68,10 @@ MISPRED_PER_1K_INST mean Miss Predictions Per 1000 Instructions.
 ## How to writing my own predictor?
 Just modify the predictor.v. You target is try to min the MISPRED_PER_1K_INST.
 
+
+## A C verion of this branch predictor?
+Yes, we provide a C version.
+```bash
+  $ make
+  $ ./predictor
+```
