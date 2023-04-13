@@ -24,6 +24,23 @@ The project use the [cbsl](https://github.com/kbkpbot/cbsl), which need the zstd
   $ ./branch_predictor
 ```
 
+Provided with no args, the branch_predictor will try to read the content of traces/TRACE_LIST.txt, which provide a trace list , one trace per line. You can comment out some traces by a leading '#', like this:
+```bash
+#LONG_MOBILE-1
+#LONG_MOBILE-2
+LONG_MOBILE-3
+LONG_MOBILE-4
+SHORT_MOBILE-1
+SHORT_MOBILE-2
+SHORT_MOBILE-3
+SHORT_MOBILE-4
+SHORT_MOBILE-24
+SHORT_MOBILE-25
+SHORT_MOBILE-27
+SHORT_MOBILE-28
+SHORT_MOBILE-30
+```
+
 You should get result something like this:
 ```bash
 ====================Summary====================
